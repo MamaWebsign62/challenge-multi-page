@@ -8,7 +8,8 @@
      src: url('../font/Good-night.ttf');
 }
 body {
-
+  margin: 0;
+  padding: 0;
 }
 .container {
     width: 1000px;
@@ -16,22 +17,31 @@ body {
 }
 /******************************************HEADER***/
 .header {
-    width: 100%;
-    height: 140px;
+    /*width: 100%;*/
+    /*height: 140px;*/
+    background-color: #fff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
 }
 #logo {
     float: left;
 }
 #logo img {
-    padding-top: 6px;
+    /*padding-top: 6px;*/
+    max-width: 70%;
+    height: auto;
 }
 .navbar {
-    float: right;
-    height: 140px;
-}
+    /*float: right;*/
+    /*height: 140px;*/
+    height: 90px;
+    margin-left: 422px;
+  }
 .navbar .menu {
     margin: 0;
-    line-height: 140px;
+    /*line-height: 140px;*/
+    line-height: 84px;
     float: left;
     width: 600px;
     padding: 0;
@@ -45,7 +55,8 @@ body {
     text-decoration: none;
     font-family: Good-night;
     font-style: normal;
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: 18px;
     font-weight: bold;
     color: #ef5e9f;
 }
@@ -62,10 +73,11 @@ body {
 #Home {
     height: 666px;
     opacity: 0.7;
-    position: relative;
+    position: absolute;
+    top: 0;
 }
 #Home img {
-    position: fixed;
+    /*position: fixed;*/
     background-size: content;
     background: linear-gradient;
 }
@@ -96,7 +108,7 @@ body {
     width: 600px;
     height: 310px;
     position: absolute;
-    top: 346px;
+    top: 247px;
     left: 10px;
 }
 .bg-opacity h1{
@@ -201,7 +213,7 @@ h3.title-product {
     color: #861961;
     font-weight: bold;
     float: left;
-    line-height: 10px;
+    line-height: 15px;
 }
 .price {
     width: 90px;
@@ -374,8 +386,11 @@ footer {
     bottom: 20px;
     width: 1000px;
     height: 50px;
-    position: relative;
-}
+    position: absolute;
+    bottom: 57px;
+    margin: 0;
+    padding: 0;
+  }
 footer p {
     margin-left: 20px;
     color: #fff;
