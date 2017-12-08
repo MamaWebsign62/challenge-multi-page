@@ -17,9 +17,7 @@ body {
 }
 /******************************************HEADER***/
 .header {
-    /*width: 100%;*/
-    /*height: 140px;*/
-    background-color: #fff;
+    background-color: #618b5a;
     position: absolute;
     z-index: 10;
     top: 0;
@@ -28,19 +26,15 @@ body {
     float: left;
 }
 #logo img {
-    /*padding-top: 6px;*/
     max-width: 70%;
     height: auto;
 }
 .navbar {
-    /*float: right;*/
-    /*height: 140px;*/
     height: 90px;
-    margin-left: 422px;
+    margin-left: 400px;
   }
 .navbar .menu {
     margin: 0;
-    /*line-height: 140px;*/
     line-height: 84px;
     float: left;
     width: 600px;
@@ -55,13 +49,12 @@ body {
     text-decoration: none;
     font-family: Good-night;
     font-style: normal;
-    /*font-size: 22px;*/
     font-size: 18px;
     font-weight: bold;
-    color: #ef5e9f;
+    color: #fff;
 }
 .navbar .menu li a:hover {
-    color: #75b36c;
+    color: #000000;
 }
 .uppercase-h {
     font-size: 26px;
@@ -77,7 +70,7 @@ body {
     top: 0;
 }
 #Home img {
-    /*position: fixed;*/
+    position: fixed;
     background-size: content;
     background: linear-gradient;
 }
@@ -87,7 +80,7 @@ body {
     top: 25px;
     font-size: 22px;
     font-family: Occupied, sans-serif;
-    /*color: #095228;*/
+    /*color: #0f4a08;*/
     font-weight: bold;
     margin-top: 0;
 }
@@ -112,7 +105,7 @@ body {
     left: 10px;
 }
 .bg-opacity h1{
-  color: #095228;
+  color: #0f4a08;
 }
 .bg-opacity:hover {
     background-color: #000;
@@ -121,17 +114,17 @@ body {
   color: #fff;
 }
 .bg-opacity:hover h1{
-  color: #34C924;
+  color: #75b36c;
 }
 .button-product {
     position: absolute;
     top: 250px;
     left: 20px;
-    background-color: #ef5e9f;
+    background-color: #75b36c;
     padding: 10px 20px;
 }
 .button-product:hover {
-    background-color: #095228;
+    background-color: #444444;
 }
 .button-product a {
     font-size: 18px;
@@ -140,15 +133,15 @@ body {
     color: #fff;
     text-decoration: none;
 }
-.button-product {
+/*.button-product {
     position: absolute;
     top: 250px;
     left: 20px;
-    background-color: #ef5e9f;
+    background-color: #111111;
     padding: 10px 20px;
 }
 .button-product:hover {
-    background-color: #095228;
+    background-color: #0f4a08;
 }
 .button-product a {
     font-size: 18px;
@@ -156,19 +149,19 @@ body {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-}
+}*/
 /******************************************PRODUCT***/
 #Product {
     clear: both;
 }
 #Product {
     clear: both;
-    background-color: #c9aad6;
-    height: 1365px;
-    background: -webkit-linear-gradient(right bottom, #c9aad6, #fff);
-    background: -o-linear-gradient(top left, #c9aad6, #fff);
-    background: -moz-linear-gradient(top left, #c9aad6, #fff);
-    background: linear-gradient(to top left, #c9aad6, #fff);
+    background-color: #444444;
+    height: 1410px;
+    background: -webkit-linear-gradient(right bottom, #75b36c, #fff);
+    background: -o-linear-gradient(top left, #75b36c, #fff);
+    background: -moz-linear-gradient(top left, #75b36c, #fff);
+    background: linear-gradient(to top left, #75b36c, #fff);
 }
 #Product img:hover {
     background-color: #000;
@@ -177,10 +170,10 @@ body {
 #Product h2 {
     margin: 0;
     text-align: right;
-    padding: 80px 10px 0 0;
+    padding: 120px 10px 0 0;
     font-size: 22px;
     font-family: Occupied, sans-serif;
-    color: #861961;
+    color: #0f4a08;
     font-weight: bold;
 }
 .product-line {
@@ -195,7 +188,7 @@ body {
     padding: 15px;
     position: relative;
     margin:0 18px 20px 0;
-    border: 1px solid #861961;
+    border: 1px solid #0f4a08;
     width: 20%;
     height: 260px;
     float: left;
@@ -210,7 +203,7 @@ h3.title-product {
     text-align: left;
     font-size: 14px;
     font-family: Occupied, sans-serif;
-    color: #861961;
+    color: #444444;
     font-weight: bold;
     float: left;
     line-height: 15px;
@@ -221,7 +214,7 @@ h3.title-product {
     float: left;
     position: absolute;
     right: 15px;
-    background-color: #861961;
+    background-color: #333333;
     opacity: 0.7;
     line-height: 40px;
     text-align: center;
@@ -230,7 +223,7 @@ h3.title-product {
     font-size: 18px;
 }
 .price:hover {
-    background-color: #095228;
+    background-color: #618b5a;
 }
 /*****************************************STORE***/
 #Store {
@@ -271,7 +264,7 @@ h3.title-product {
 }
 
 .bg-store .title-store{
-  color: #095228;
+  color: #0f4a08;
 }
 .bg-store:hover {
     background-color: #000;
@@ -280,7 +273,7 @@ h3.title-product {
   color: #fff;
 }
 .bg-store:hover .title-store {
-  color: #34C924;
+  color: #75b36c;
 }
 
 .social-network {
@@ -296,21 +289,21 @@ h3.title-product {
 }
 
 i.fa.fa-facebook-square, i.fa.fa-twitter-square, i.fa.fa-instagram {
-    color: #ef5e9f;
+    color: #75b36c;
     font-size: 40px;
 }
 i.fa.fa-facebook-square:hover, i.fa.fa-twitter-square:hover, i.fa.fa-instagram:hover {
-    color: #095228;
+    color: #0f4a08;
 }
 .mailto a {
     position: absolute;
     right: 0;
     top: 161px;
-    color: #095228;
+    color: #0f4a08;
     text-decoration: none;
 }
 .bg-store:hover .mailto a {
-    color: #ef5e9f;
+    color: #75b36c;
 }
 i.fa.fa-envelope:after {
     margin-right: 20px;
@@ -327,7 +320,7 @@ i.fa.fa-envelope:after {
     opacity: 0.7;*/
 }
 form {
-    border: 2px solid #861961;
+    border: 2px solid #0f4a08;
     width: 60%;
     height: 40%;
     background-color: #fff;
@@ -346,9 +339,9 @@ input {
     width: 97.3%;
     height: 25px;
     margin-bottom: 10px;
-    border: 2px solid #095228;
+    border: 2px solid #0f4a08;
     padding-left: 10px;
-    color: #095228;
+    color: #0f4a08;
     font-size: 16px;
     font-weight: bold;
 }
@@ -356,12 +349,12 @@ input {
     background-color: #fff;
 }
 textarea {
-    border: 2px solid #095228;
+    border: 2px solid #0f4a08;
     width: 97.2%;
     height: 80px;
     margin-bottom: 5px;
     padding-left: 10px;
-    color: #095228;
+    color: #0f4a08;
     font-size: 18px;
     font-weight: bold;
     background-color: #fff;
@@ -370,38 +363,73 @@ button {
     height: 35px;
     width: 100px;
     float: right;
-    background-color: #861961;
+    background-color: #618b5a;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
 }
 button:hover {
-    background-color: #095228;
+    background-color: #0f4a08;
 }
 /*********************************FOOTER***/
 footer {
-    background-color: #861961;
+    background-color: #618b5a;
     opacity: 0.7;
     clear: both;
     bottom: 20px;
     width: 1000px;
     height: 50px;
     position: absolute;
-    bottom: 57px;
+    top: 663px;
     margin: 0;
     padding: 0;
-  }
-  .footer-products{
-    background-color: #861961;
-    opacity: 0.7;
+}
+.footer-index {
+    background-color: #618b5a;
+    /*opacity: 0.7;*/
+    clear: both;
+    bottom: 20px;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 566px;
+    margin: 0;
+    padding: 0;
+}
+  .footer-products {
+    background-color: #618b5a;
+    /*opacity: 0.7;*/
     clear: both;
     width: 1000px;
     height: 50px;
-    position: fixed;
-    top: 1365px;
+    position: absolute;
+    top: 1410px;
     margin: 0;
     padding: 0;
   }
+  .footer-store {
+    background-color: #618b5a;
+    /*opacity: 0.7;*/
+    clear: both;
+    bottom: 20px;
+    width: 1000px;
+    height: 50px;
+    position: absolute;
+    top: 667px;
+    margin: 0;
+    padding: 0;
+}
+.footer-contact {
+  background-color: #618b5a;
+  /*opacity: 0.7;*/
+  clear: both;
+  width: 1000px;
+  height: 50px;
+  position: absolute;
+  top: 562px;
+  margin: 0;
+  padding: 0;
+}
 footer p {
     margin-left: 20px;
     margin-top: 0;
@@ -419,7 +447,7 @@ footer p {
     font-family: Occupied, sans-serif;
 }
 .legal-notice:hover {
-    color: #c9aad6;
+    color: #0f4a08;
 }
 .social-network-footer {
     position: absolute;
@@ -433,7 +461,7 @@ footer p {
     font-size: 40px;
 }
 .social-network-footer i.fa.fa-facebook-square:hover, .social-network-footer i.fa.fa-twitter-square:hover, .social-network-footer i.fa.fa-instagram:hover {
-    color: #c9aad6;
+    color: #0f4a08;
     font-size: 40px;
 }
 .social-network-footer li {
@@ -454,7 +482,7 @@ footer p {
 }
 .container2 h2 {
     font-size: 24px;
-    color: #861961;
+    color: #0f4a08;
     font-family: Occupied, sans-serif;
     text-align: center;
     margin-bottom: 100px;
@@ -464,7 +492,7 @@ h4, p {
 }
 h4 {
     font-size: 20px;
-    color: #ef5e9f;
+    color: #111111;
     font-family: Occupied, sans-serif;
 }
 p {
