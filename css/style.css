@@ -221,6 +221,7 @@ h3.title-product {
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 .price:hover {
     background-color: #618b5a;
