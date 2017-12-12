@@ -373,7 +373,7 @@ button:hover {
     background-color: #0f4a08;
 }
 /*********************************FOOTER***/
-footer {
+/*footer {
     background-color: #618b5a;
     opacity: 0.7;
     clear: both;
@@ -384,7 +384,7 @@ footer {
     top: 663px;
     margin: 0;
     padding: 0;
-}
+}*/
 .footer-index {
     background-color: #618b5a;
     /*opacity: 0.7;*/
@@ -503,5 +503,38 @@ p {
 }
 .container2 a {
     color: #000;
-
+}
+/**********************************************************BACK-TOP***/
+#back-top {
+    background-image: -webkit-linear-gradient(30deg, #53c695 0%, #ffffff 100%);
+    background-image: -o-linear-gradient(30deg, #53c695 0%, #ffffff 100%);
+    background-image: linear-gradient(120deg, #53c695 0%, #ffffff 100%);
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+}
+#back-top:hover {
+    background-image: -webkit-linear-gradient(30deg, #ffffff 0%, #53c695 100%);
+    background-image: -o-linear-gradient(30deg, #ffffff 0%, ##53c695 100%);
+    background-image: linear-gradient(120deg, #ffffff 0%, ##53c695 100%);
+}
+#back-top a {
+  /*width: 70px;
+  height: 70px;*/
+}
+/*#back-top a i {
+    font-size: 40px;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 60px;
+}*/
+#back-top a i {
+    font-size: 40px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 15px;
+    width: 55px;
+    height: 70px;
 }
